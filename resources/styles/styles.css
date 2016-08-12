@@ -1,3 +1,85 @@
-h1 {
-  color: blue;
+.meal-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.meal {
+  width: 300px;
+  height: 200px;
+  margin: 33px 33px 0 0;
+  background-color: lightgray;
+  border: 2px solid steelblue;
+  border-radius: 5px;
+}
+
+.meal:hover {
+  width: 300px;
+  height: 200px;
+  margin: 33px 33px 0 0;
+  background-color: #2bd9fe;
+  border: 2px solid #388659;
+  border-radius: 5px;
+}
+
+.meal-header {
+  width: 100%;
+  height: 50px;
+  background-color: steelblue;
+  border: 2px solid steelblue;
+}
+
+.meal-header:hover {
+  width: 100%;
+  height: 50px;
+  background-color: #388659;
+  border: 2px solid #388659;
+}
+
+.meal-header-name {
+  color: #ffffff;
+  font-size: 1.8em;
+  font-weight: lighter;
+  letter-spacing: 0.125em;
+  padding: 0 20px 20px 8px;
+}
+
+.meal-header-name:hover {
+  color: #000000;
+  font-size: 1.8em;
+  font-weight: normal;
+  letter-spacing: 0.125em;
+  padding: 0 20px 20px 8px;
+}
+
+.meal-details {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 0.125em;
+  padding: 0 20px 8px 8px;
+}
+
+.meal-details:hover {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 0.125em;
+  padding: 0 20px 8px 8px;
+  color: #ffffff;
+}
+
+.h5-display {
+  font-size: 1.3em;
+  text-transform: none;
+  font-weight: lighter;
+  letter-spacing: 0.05em;
+}
+
+.h5-display:hover {
+  font-size: 1.3em;
+  text-transform: none;
+  font-weight: lighter;
+  letter-spacing: 0.05em;
+  color: #ffffff;
 }

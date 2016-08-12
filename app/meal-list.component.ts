@@ -18,7 +18,7 @@ import { CaloriesPipe } from './calories.pipe';
       <option value="under500">SHOW MEALS < 500 CALORIES</option>
       <option value="over500">SHOW MEALS > 500 CALORIES</option>
     </select>
-    <div>
+    <div class="meal-display">
       <meal-display *ngFor="#currentMeal of mealList | calories:filterCalories"
         (click)="mealClicked(currentMeal)"
         [class.selected]="currentMeal === selectedMeal"

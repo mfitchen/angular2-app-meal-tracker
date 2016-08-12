@@ -1,5 +1,12 @@
 body {
   background-color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+.wrap {
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -122,14 +129,14 @@ h3 {
   border-radius: 5px;
 }
 
-.form-input-details, select.form-calories-select, .input-edit-details {
+select.form-calories-select, .input-edit-details {
   height: 33px;
   width: 333px;
   margin: 8px 20px 8px 0;
   border-radius: 5px;
 }
 
-.input-edit-details {
+.form-input-details, .input-edit-details {
   height: 33px;
   width: 500px;
   margin: 8px 20px 8px 0;

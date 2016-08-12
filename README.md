@@ -14,7 +14,7 @@ Project Requirements & Objectives  | Complete
 *Objectives*: Application works as expected. | --
 *Objective*: Application is structured in a logical way, including a **model**, multiple **components**, and **TypeScript**. | X
 *Objectives*: Application can create and edit new instances of a model. | --
-*Objective*: Application allows a user to view a list of foods. | --
+*Objective*: Application allows a user to view a list of foods. | X
 *Objective*: Application can filter meals based on the number of calories in the meal. | --
 *Objective*: Dependencies are managed with **npm** and **Bower**. | X
 *Objective*: Application includes a gulp-based asset pipeline with a development server. | X

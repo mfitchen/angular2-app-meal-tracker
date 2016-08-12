@@ -218,12 +218,12 @@ p {
   color: #333333;
 }
 
-a {
+a.links {
   text-decoration: none;
   color: #333333;
 }
 
-a:hover {
+a.links:hover {
   text-decoration: none;
   color: #ffffff;
 }

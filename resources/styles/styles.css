@@ -6,11 +6,17 @@ h3 {
   color: #ffffff;
 }
 
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
 .title {
   margin-left: 30px;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 8px;
   font-weight: lighter;
+  color: #ffffff;
 }
 
 .burger {
@@ -25,7 +31,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   background-color: #52aa5e;
-  border-bottom: 3px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 
 .nav-header-angular2, .nav-header-title {
@@ -55,8 +61,8 @@ h3 {
   width: 300px;
   height: 200px;
   margin: 33px 33px 0 0;
-  background-color: lightgray;
-  border: 2px solid steelblue;
+  background-color: #000000;
+  border: 1px solid #52aa5e;
   border-radius: 5px;
 }
 
@@ -64,23 +70,16 @@ h3 {
   width: 300px;
   height: 200px;
   margin: 33px 33px 0 0;
-  background-color: #2bd9fe;
-  border: 2px solid #388659;
+  background-color: rgba(82, 170, 94, 0.33);
+  border: 1px solid #52aa5e;
   border-radius: 5px;
 }
 
 .meal-header {
   width: 100%;
   height: 50px;
-  background-color: steelblue;
-  border: 2px solid steelblue;
-}
-
-.meal-header:hover {
-  width: 100%;
-  height: 50px;
-  background-color: #388659;
-  border: 2px solid #388659;
+  background-color: #52aa5e;
+  border: 1px solid #52aa5e;
 }
 
 .meal-header-name {
@@ -91,42 +90,20 @@ h3 {
   padding: 0 20px 20px 8px;
 }
 
-.meal-header-name:hover {
-  color: #000000;
-  font-size: 1.8em;
-  font-weight: normal;
-  letter-spacing: 0.125em;
-  padding: 0 20px 20px 8px;
-}
-
 .meal-details {
   font-size: 0.8em;
   text-transform: uppercase;
   font-weight: bolder;
   letter-spacing: 0.125em;
-  padding: 0 20px 8px 8px;
-}
-
-.meal-details:hover {
-  font-size: 0.8em;
-  text-transform: uppercase;
-  font-weight: bolder;
-  letter-spacing: 0.125em;
-  padding: 0 20px 8px 8px;
-  color: #ffffff;
+  padding: 8px 20px 0 8px;
+  color: #888888;
 }
 
 .h5-display {
-  font-size: 1.3em;
+  font-size: 1.1em;
   text-transform: none;
   font-weight: lighter;
   letter-spacing: 0.05em;
-}
-
-.h5-display:hover {
-  font-size: 1.3em;
-  text-transform: none;
-  font-weight: lighter;
-  letter-spacing: 0.05em;
+  padding: 0 20px 8px 8px;
   color: #ffffff;
 }

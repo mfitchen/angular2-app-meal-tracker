@@ -9,7 +9,7 @@ import { MealListComponent } from './meal-list.component';
     <div class="wrap">
       <div class="nav-header">
         <div class="nav-header-title">
-          <img class="burger" src="/resources/img/burger.png" alt="Cheeseburger Icon"><h1 class="title">meal tracker</h1>
+          <h1 class="title">meal tracker</h1>
         </div>
         <div class="nav-header-angular2">
           <div class="nav-header-angular2-logo">

@@ -6,6 +6,7 @@ import { Meal } from './meal.model';
   template: `
     <div class="wrap">
       <h1>MFitchen | Meal Tracker [ angular2 app ]</h1>
+      <meal-display></meal-display>
     </div>
   `
 })

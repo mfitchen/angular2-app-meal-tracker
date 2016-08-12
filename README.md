@@ -11,7 +11,7 @@ _This is an Epicodus student solo project using Angular2 to build a single page 
 Project Requirements & Objectives  | Complete
 :------------- | :-------------: |
 *Required*: Create a meal tracking application. Users should be able to log foods they've eaten each day, including details about the meal and its number of calories. You may assume foods being logged are for a single day (you are not required to keep track of multiple days' meals). | --
-*Objectives*: Application works as expected. | --
+*Objectives*: Application works as expected. | X
 *Objective*: Application is structured in a logical way, including a **model**, multiple **components**, and **TypeScript**. | X
 *Objectives*: Application can create and edit new instances of a model. | X
 *Objective*: Application allows a user to view a list of meals. | X

@@ -7,7 +7,19 @@ import { MealListComponent } from './meal-list.component';
   directives: [MealListComponent],
   template: `
     <div class="wrap">
-      <h1>MFitchen | Meal Tracker [ angular2 app ]</h1>
+      <div class="nav-header">
+        <div class="nav-header-title">
+          <img class="burger" src="/resources/img/burger.png" alt="Cheeseburger Icon"><h1 class="title">meal tracker</h1>
+        </div>
+        <div class="nav-header-angular2">
+          <div class="nav-header-angular2-logo">
+            <img class="angular2-logo" src="https://camo.githubusercontent.com/07cdd0c91fc537ecb88c95d77c7d9f3b7d171ad6/687474703a2f2f692e696d6775722e636f6d2f353058624d4e522e706e67" alt="Angular2 Logo">
+          </div>
+          <div class="nav-header-angular2-app">
+            <h6 class="angular2-app">APP</h6>
+          </div>
+        </div>
+      </div>
       <meal-list
         [mealList]="meals"
         (onMealSelect)="mealWasSelected($event)">

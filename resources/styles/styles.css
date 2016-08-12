@@ -4,12 +4,7 @@ body {
   margin: 0;
 }
 
-.wrap {
-  padding: 0;
-  margin: 0;
-}
-
-h1 {
+.wrap, h1, p {
   padding: 0;
   margin: 0;
 }
@@ -191,20 +186,44 @@ input {
   color: #888888;
 }
 
+.pipe-style2 {
+  font-weight: lighter;
+  color: #777777;
+}
+
 .meal-name-style {
   font-weight: bolder;;
   color: #ffffff;
 }
 
 .meals-info {
-  height: calc(100vh - 133px);
+  height: calc(100vh - 128px);
 }
 
-footer {
+.footer {
   width: 100vw;
   height: 33px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   background-color: #52aa5e;
+  padding-right: 20px;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+p {
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
 }

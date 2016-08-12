@@ -26,11 +26,7 @@ import { MealListComponent } from './meal-list.component';
           (onMealSelect)="mealWasSelected($event)">
         </meal-list>
       </div>
-      <footer>
-        <div class"footer-info">
-          <p>| MFitchen</p> 
-        </div>
-      </footer>
+      
     </div>
   `
 })

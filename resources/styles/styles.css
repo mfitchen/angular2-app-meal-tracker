@@ -195,3 +195,16 @@ input {
   font-weight: bolder;;
   color: #ffffff;
 }
+
+.meals-info {
+  height: calc(100vh - 133px);
+}
+
+footer {
+  width: 100vw;
+  height: 33px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #52aa5e;
+}

@@ -20,10 +20,12 @@ import { MealListComponent } from './meal-list.component';
           </div>
         </div>
       </div>
-      <meal-list
-        [mealList]="meals"
-        (onMealSelect)="mealWasSelected($event)">
-      </meal-list>
+      <div class="meals-info">
+        <meal-list
+          [mealList]="meals"
+          (onMealSelect)="mealWasSelected($event)">
+        </meal-list>
+      </div>
     </div>
   `
 })

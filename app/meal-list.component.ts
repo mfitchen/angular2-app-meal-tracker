@@ -13,7 +13,7 @@ import { CaloriesPipe } from './calories.pipe';
   directives: [MealComponent, EditMealDetailsComponent, NewMealComponent],
   template: `
     <h3>Filter</h3>
-    <select (change)="onCaloriesChange($event.target.value)" class="filter form-control">
+    <select (change)="onCaloriesChange($event.target.value)" class="filter form-control form-calories-select">
       <option value="all" selected="selected">SHOW ALL MEALS</option>
       <option value="under500">SHOW MEALS < 500 CALORIES</option>
       <option value="over500">SHOW MEALS > 500 CALORIES</option>

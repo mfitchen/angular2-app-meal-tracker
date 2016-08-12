@@ -2,13 +2,15 @@ body {
   background-color: #000000;
 }
 
-h3 {
-  color: #ffffff;
-}
-
 h1 {
   padding: 0;
   margin: 0;
+}
+
+h3 {
+  color: #52aa5e;
+  letter-spacing: 3px;
+  font-weight: lighter;
 }
 
 .title {
@@ -58,18 +60,18 @@ h1 {
 }
 
 .meal {
-  width: 300px;
+  width: 280px;
   height: 200px;
-  margin: 33px 33px 0 0;
+  margin: 32px 16px 0 16px;
   background-color: #000000;
   border: 1px solid #52aa5e;
   border-radius: 5px;
 }
 
 .meal:hover {
-  width: 300px;
+  width: 280px;
   height: 200px;
-  margin: 33px 33px 0 0;
+  margin: 32px 16px 0 16px;
   background-color: rgba(82, 170, 94, 0.33);
   border: 1px solid #52aa5e;
   border-radius: 5px;
@@ -105,5 +107,84 @@ h1 {
   font-weight: lighter;
   letter-spacing: 0.05em;
   padding: 0 20px 8px 8px;
+  color: #ffffff;
+}
+
+.meals-info {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-input, .input-edit-meal {
+  height: 33px;
+  width: 175px;
+  margin: 8px 20px 8px 0;
+  border-radius: 5px;
+}
+
+.form-input-details, select.form-calories-select, .input-edit-details {
+  height: 33px;
+  width: 333px;
+  margin: 8px 20px 8px 0;
+  border-radius: 5px;
+}
+
+.input-edit-details {
+  height: 33px;
+  width: 500px;
+  margin: 8px 20px 8px 0;
+  border-radius: 5px;
+}
+
+.form-input:focus, .form-input-details:focus, select.form-calories-select:focus, .input-edit-meal:focus, .input-edit-details:focus {
+  outline: none;
+  border-color: #52aa5e;
+  box-shadow: 0 0 10px #52aa5e;
+}
+
+input {
+  border: 2px solid #ffffff;
+  color: #52aa5e;
+  padding: 0 0 0 8px;
+}
+
+::-webkit-input-placeholder {
+  color: #52aa5e;
+  letter-spacing: 0.5px;
+}
+::-moz-placeholder {
+  color: #52aa5e;
+  letter-spacing: 0.5px;
+}
+:-moz-placeholder {
+  color: #52aa5e;
+  letter-spacing: 0.5px;
+}
+:-ms-input-placeholder {
+  color: #52aa5e;
+  letter-spacing: 0.5px;
+}
+
+.add-button {
+  background-color: #52aa5e;
+  border: 3px solid #52aa5e;
+  color: #ffffff;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+  height: 33px;
+  width: 100px;
+  margin: 8px 20px 8px 0;
+  border-radius: 5px;
+}
+
+.pipe-style {
+  font-weight: lighter;
+  color: #888888;
+}
+
+.meal-name-style {
+  font-weight: bolder;;
   color: #ffffff;
 }

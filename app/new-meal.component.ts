@@ -7,10 +7,10 @@ import { Meal } from './meal.model';
   template: `
     <div class="meal-form">
       <h3>New Meal</h3>
-      <input placeholder="Name" class="form-control" #newName/>
-      <input placeholder="Details" class="form-control" #newDetails/>
-      <input placeholder="Calories" class="form-control" type="number" #newCalories/>
-      <button (click)="addMeal(newName, newDetails, newCalories)" class="add-button">Add New Meal</button>
+      <input placeholder="Name" class="form-input" #newName/>
+      <input placeholder="Calories" class="form-input" type="number" #newCalories/>
+      <input placeholder="Details" class="form-input-details" #newDetails/>
+      <button (click)="addMeal(newName, newDetails, newCalories)" class="add-button">Add Meal</button>
     </div>
   `
 })

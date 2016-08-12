@@ -9,20 +9,24 @@ import { CaloriesPipe } from './calories.pipe';
   selector: 'meal-list',
   inputs: ['mealList'],
   outputs: ['onMealSelect'],
+  pipes: [CaloriesPipe],
   directives: [MealComponent, EditMealDetailsComponent, NewMealComponent],
   template: `
-    <select (change)="onCaloriesChange($event.target.value)">
+    <h3>Filter</h3>
+    <select (change)="onCaloriesChange($event.target.value)" class="filter form-control">
       <option value="all" selected="selected">SHOW ALL MEALS</option>
       <option value="under500">SHOW MEALS < 500 CALORIES</option>
       <option value="over500">SHOW MEALS > 500 CALORIES</option>
     </select>
-    <meal-display *ngFor="#currentMeal of mealList | calories:filterCalories"
-      (click)="mealClicked(currentMeal)"
-      [class.selected]='currentMeal === selectedMeal'
-      [meal]='currentMeal'>
-    </meal-display>
     <div>
-      <edit-meal-details *ngIf= "selectedMeal" [meal]="selectedMeal"></edit-meal-details>
+      <meal-display *ngFor="#currentMeal of mealList | calories:filterCalories"
+        (click)="mealClicked(currentMeal)"
+        [class.selected]="currentMeal === selectedMeal"
+        [meal]="currentMeal">
+      </meal-display>
+    </div>
+    <div>
+      <edit-meal-details *ngIf="selectedMeal" [meal]="selectedMeal"></edit-meal-details>
     </div>
     <div>
       <new-meal (onSubmitNewMeal)="createMeal($event)"></new-meal>
@@ -41,7 +45,6 @@ export class MealListComponent {
   }
 
   mealClicked(clickedMeal: Meal): void {
-    console.log('child', clickedMeal);
     this.selectedMeal = clickedMeal;
     this.onMealSelect.emit(clickedMeal);
   }

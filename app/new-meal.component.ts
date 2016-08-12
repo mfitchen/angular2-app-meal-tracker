@@ -3,7 +3,7 @@ import { Meal } from './meal.model';
 
 @Component({
   selector: 'new-meal',
-  inputs: ['onSubmitNewMeal'],
+  outputs: ['onSubmitNewMeal'],
   template: `
     <div class="meal-form">
       <h3>New Meal</h3>

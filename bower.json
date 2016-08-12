@@ -1,5 +1,5 @@
 {
-  "name": "to-do-app",
+  "name": "meal-tracker-angular2-app",
   "description": "",
   "main": "",
   "license": "ISC",
@@ -10,5 +10,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^1.9"
+  }
 }

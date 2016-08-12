@@ -7,6 +7,7 @@ import { Meal } from './meal.model';
     <div class="wrap">
       <h1>MFitchen | Meal Tracker [ angular2 app ]</h1>
       <meal-display></meal-display>
+      <new-meal></new-meal>
     </div>
   `
 })

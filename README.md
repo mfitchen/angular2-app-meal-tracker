@@ -16,8 +16,8 @@ Project Requirements & Objectives  | Complete
 *Objectives*: Application can create and edit new instances of a model. | --
 *Objective*: Application allows a user to view a list of foods. | --
 *Objective*: Application can filter meals based on the number of calories in the meal. | --
-*Objective*: Dependencies are managed with **npm** and **Bower**. | --
-*Objective*: Application includes a gulp-based asset pipeline with a development server. | --
+*Objective*: Dependencies are managed with **npm** and **Bower**. | X
+*Objective*: Application includes a gulp-based asset pipeline with a development server. | X
 
 ## Setup/Installation Requirements
 

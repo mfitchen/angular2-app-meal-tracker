@@ -1,4 +1,4 @@
-# _Angular2 App_
+# _Meal Tracker Angular2 App_
 
 #### _Epicodus: JavaScript (Week 2 Solo Project), August 12, 2016_
 
